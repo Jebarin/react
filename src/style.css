@@ -1,0 +1,23 @@
+.otp_container{
+    text-align: center; 
+    width: 350px;
+}
+.otp_block{
+    display: flex;
+}
+.otp_item{
+    display: flex;
+    align-items: center;
+}
+.otp_item input{
+    width: 3rem;
+    text-align: center;
+    height: 3rem;
+    margin: 0px 1rem;
+    font-size: 2rem;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.otp_item:first-child input{
+    margin-left: 0px;
+}
